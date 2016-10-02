@@ -1,0 +1,16 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+@import "./colors.scss";
+@import "./fonts.scss";
+@import "./base.scss";
+
+@import "./bootstrap.mods.scss";
+
+body {
+    background-color: $color-background-grey;
+}
+
+.withShadow {
+  box-shadow: 0 0 25px 5px #ddd;
+}

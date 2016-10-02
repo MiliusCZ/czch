@@ -1,0 +1,27 @@
+@import "../../assets/styles/colors.scss";
+
+.footer {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+
+    a, a:hover, a:visited, a:active, a:link, a:focus, a:active:focus {
+        color: darken($color-brand-primary, 5%);
+    }
+
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.footerBox {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #bebebe;
+}
+
+.moved {
+    position: relative;
+}
+
+
