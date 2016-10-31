@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import styles from './app.css';
 import { loadApp } from 'actions/app';
 
-import { Header, Footer } from 'components';
+import { Header, Footer, TopImage } from 'components';
+import topImage from 'assets/images/topimagefake.jpg';
 
 export class App extends Component {
   static propTypes = {
@@ -22,7 +23,12 @@ export class App extends Component {
         <div className="container withShadow" style={{ padding: '0' }}>
           <div className="row">
             <Header />
-            {this.props.children}
+            <TopImage data={{ image: topImage }} />
+            <div className="container">
+              <div className="row">
+                {this.props.children}
+              </div>
+            </div>
             <Footer />
           </div>
         </div>

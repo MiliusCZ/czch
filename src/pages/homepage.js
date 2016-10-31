@@ -1,11 +1,10 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
+import './homepage.scss';
 
 export const Homepage = () => (
-  <div className="container">
-    <div className="row">
-      Homepage container
-    </div>
+  <div className="homepageContainer">
+    Homepage container
   </div>
 );
 

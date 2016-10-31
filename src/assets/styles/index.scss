@@ -8,9 +8,10 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import "./bootstrap.mods.scss";
 
 body {
-    background-color: $color-background-grey;
+  background: $color-background;
+  background: radial-gradient(desaturate($color-background, 100%), desaturate($color-background-alt, 100%));
 }
 
 .withShadow {
-  box-shadow: 0 0 25px 5px #ddd;
+  box-shadow: 0 0 25px 5px desaturate($color-shadow, 100%);
 }
