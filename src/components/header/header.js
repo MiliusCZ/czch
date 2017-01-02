@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 import image from 'assets/images/logoCZCH.png';
 
 const navData = [
-  { to: '/about', display: 'O nás' },
+  { to: '/', display: 'O nás' },
   { to: '/team', display: 'Náš tým' },
   { to: '/prices', display: 'Ceník' },
   { to: '/services', display: 'Služby' },
@@ -26,7 +26,12 @@ export const Header = () => (
       <div className="header">
         <div className="logo">
           <Link to={''}>
-            <img src={image} alt="logo" style={{ width: '100px' }} /> <span style={{ fontSize: 'x-large' }}>Centrum zubní chirurgie, s.r.o.</span>
+            <img src={image} alt="logo" style={{ width: '50px' }} />
+          </Link>
+        </div>
+        <div className="siteTitle">
+          <Link to={''}>
+            Centrum zubní chirurgie, s.r.o.
           </Link>
         </div>
         <nav>

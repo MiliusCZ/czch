@@ -1,9 +1,10 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
+import './fakepage.scss';
 
 export const FakePage = () => (
   <div className="fakePageContainer">
-    Fake page
+    Tuto stránku pro Vás připravujeme.
   </div>
 );
 

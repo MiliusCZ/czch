@@ -1,3 +1,19 @@
 .homepageContainer {
   background-color: white;
+  padding: 20px;
+  display: flex;
+
+  .aboutSection {
+    flex: 4;
+
+    p {
+      width: 90%;
+      text-align: justify;
+    }
+  }
+
+  .contactSection {
+    flex: 1;
+  }
 }
+

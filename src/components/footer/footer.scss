@@ -1,17 +1,27 @@
 @import "../../assets/styles/colors.scss";
 
 .footer {
-    height: 90px;
     width: 100%;
-    background-color: $color-brand-primary;
+    background-color: #dddddd;
+    padding: 20px;
 
     a, a:hover, a:visited, a:active, a:link, a:focus, a:active:focus {
         color: darken($color-brand-primary, 5%);
     }
 
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
+
+    .insuranceSection, .hoursSection, .contactSection {
+        width: 30%;
+        border-right: 1px solid #cccccc;
+    }
+
+    .insuranceSection {
+        border: 0;
+    }
+
 }
 
 .footerBox {

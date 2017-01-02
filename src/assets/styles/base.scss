@@ -4,10 +4,12 @@
 
 body {
     font-family: $font-family-base;
+    color: #606060;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-family-heading;
+    margin-top: 0;
 }
 
 h1 {
@@ -27,11 +29,18 @@ h4 {
 }
 
 a {
-    color: $color-brand-primary;
+    color: #606060;
     text-decoration: none;
 
+    &:active, &:visited, &:link {
+        text-decoration: none;
+        color: #606060;
+    }
+
     &:hover {
-        text-decoration: underline;
+        text-decoration: none;
+        border-bottom: 2px solid $color-brand-primary;
+        color: #606060;
     }
 }
 

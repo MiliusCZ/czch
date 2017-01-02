@@ -2,15 +2,26 @@
   width: 100%;
   width: 100%;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.siteTitle {
+  flex-grow: 1;
+  font-size: large;
+  text-shadow: 1px 1px #eeeeee;
 }
 
 nav ul {
   li {
     display: inline;
     margin: 5px;
+    text-shadow: 1px 1px #eeeeee;
   }
 }
