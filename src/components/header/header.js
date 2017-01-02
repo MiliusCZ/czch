@@ -26,7 +26,7 @@ export const Header = () => (
       <div className="header">
         <div className="logo">
           <Link to={''}>
-            <img src={image} alt="logo" style={{ width: '100px' }} />
+            <img src={image} alt="logo" style={{ width: '100px' }} /> <span style={{ fontSize: 'x-large' }}>Centrum zubní chirurgie, s.r.o.</span>
           </Link>
         </div>
         <nav>
