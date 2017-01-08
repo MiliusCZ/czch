@@ -17,3 +17,24 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .homepageContainer {
+    flex-direction: column;
+
+    .aboutSection {
+      text-align: center;
+      flex: 1;
+      p {
+        margin: auto;
+      }
+
+      margin-bottom: 20px;
+    }
+
+    .contactSection {
+      flex: 1;
+      text-align: center;
+    }
+  }
+}
+
