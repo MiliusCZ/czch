@@ -4,7 +4,7 @@ import styles from './app.css';
 import { loadApp } from 'actions/app';
 
 import { Header, Footer, TopImage } from 'components';
-import topImage from 'assets/images/topimagetemp.jpg';
+import topImage from 'assets/images/topimagereal2.jpg';
 
 export class App extends Component {
   static propTypes = {
