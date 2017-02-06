@@ -4,7 +4,6 @@ import styles from './app.css';
 import { loadApp } from 'actions/app';
 
 import { Header, Footer, TopImage } from 'components';
-import topImage from 'assets/images/topimagereal2.jpg';
 
 export class App extends Component {
   static propTypes = {
@@ -23,7 +22,7 @@ export class App extends Component {
         <div className="container withShadow" style={{ padding: '0' }}>
           <div className="row">
             <Header />
-            <TopImage data={{ image: topImage }} />
+            <TopImage />
             <div className="container">
               <div className="row">
                 {this.props.children}
