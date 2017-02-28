@@ -9,6 +9,7 @@ const navData = [
   { to: '/team', display: 'Náš tým' },
   { to: '/prices', display: 'Ceník' },
   { to: '/services', display: 'Služby' },
+  { to: '/tools', display: 'Přístrojové vybavení' },
   { to: '/contact', display: 'Kontakt' },
 ];
 

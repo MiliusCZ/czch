@@ -19,8 +19,7 @@ export const Homepage = () => (
     </div>
     <div className="contactSection">
       <h3>Recepce</h3>
-      <b>777 631 397</b> <br />
-      <b>220 570 580</b>
+      <b>777 631 397</b>
     </div>
   </div>
 );

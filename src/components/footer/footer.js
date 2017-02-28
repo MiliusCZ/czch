@@ -15,8 +15,8 @@ export const Footer = () => (
           Pod Marjánkou 1906/12<br />
           Praha 6 - Břevnov<br />
           169 00 <br />
-          IČO: 050 33 519 <br />
-          <strong>Recepce:</strong><br /> 777 631 397<br /> 220 570 580
+          IČO: 050 33 519 <br /> <br />
+          <strong>Recepce:</strong><br /> 777 631 397
         </div>
         <div className="insuranceSection">
           <h3>Smluvní pojišťovny</h3>
