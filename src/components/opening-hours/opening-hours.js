@@ -3,7 +3,7 @@ import './opening-hours.scss';
 
 export const OpeningHours = () => (
   <div className="openingHours">
-    <h3>Ordinační hodiny</h3>
+    <h4>Ordinační hodiny</h4>
     <ul>
       <li><strong>MUDr. Stanislav Kučera</strong></li>
       <li><span className="hours-heading"><strong>Po</strong>:</span> 8:00 – 12:00<span className="hours-heading"></span>12:45 – 14:30</li>

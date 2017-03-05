@@ -4,3 +4,29 @@
     display: flex;
     flex-direction: column;
   }
+
+  .toolsList {
+    li {
+      min-height: 40px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    li:nth-child(even) {
+      background-color: #fafafa;
+    }
+
+    li:hover {
+      background-color: #E4D6A7;
+    }
+
+    .toolName {
+      margin-left: 40px;
+    }
+
+    .toolType {
+      font-weight: bold;
+      margin-left: 5px;
+    }
+  }

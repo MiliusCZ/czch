@@ -4,3 +4,29 @@
     display: flex;
     flex-direction: column;
   }
+
+  .priceList {
+    li {
+      min-height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    li:nth-child(even) {
+      background-color: #fafafa;
+    }
+
+    li:hover {
+      background-color: #E4D6A7;
+    }
+
+    .priceName {
+      margin-left: 40px;
+    }
+
+    .priceValue {
+      margin-right: 40px;
+      font-weight: bold;
+    }
+  }

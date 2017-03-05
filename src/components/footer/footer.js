@@ -10,7 +10,7 @@ export const Footer = () => (
           <OpeningHours />
         </div>
         <div className="contactSection">
-          <h3>Kontakt</h3>
+          <h4>Kontakt</h4>
           <strong>Centrum zubní chirurgie, s.r.o.</strong><br />
           Pod Marjánkou 1906/12<br />
           Praha 6 - Břevnov<br />
@@ -19,7 +19,7 @@ export const Footer = () => (
           <strong>Recepce:</strong><br /> 777 631 397
         </div>
         <div className="insuranceSection">
-          <h3>Smluvní pojišťovny</h3>
+          <h4>Smluvní pojišťovny</h4>
           <ul>
             <li>111 – VZP</li>
             <li>201 – VoZP</li>

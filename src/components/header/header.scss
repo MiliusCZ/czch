@@ -10,6 +10,11 @@
 
 .logo {
   margin-right: 20px;
+
+  a:hover {
+    border-bottom: 0;
+  }
+
 }
 
 .siteTitle {
@@ -21,7 +26,7 @@
 nav ul {
   li {
     display: inline;
-    margin: 5px;
+    margin: 10px;
     text-shadow: 1px 1px #eeeeee;
   }
 }

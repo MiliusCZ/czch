@@ -10,7 +10,7 @@ const navData = [
   { to: '/prices', display: 'Ceník' },
   { to: '/services', display: 'Služby' },
   { to: '/tools', display: 'Přístrojové vybavení' },
-  { to: '/contact', display: 'Kontakt' },
+  { to: '/contact', display: 'Kde nás najdete' },
 ];
 
 const links = navData.map((link, index) => (

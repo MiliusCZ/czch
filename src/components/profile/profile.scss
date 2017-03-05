@@ -3,8 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid #eeeeee;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 
   .profilePhoto {
     width: 100%;
@@ -18,6 +18,18 @@
   .profileInfo {
     text-align: left;
     padding-top: 10px;
+
+    ul {
+      margin-left: 15px;
+    }
+
+    h4 {
+      margin-top: 20px;
+    }
+
+    .what {
+      margin-left: 10px;
+    }
   }
 }
 
@@ -39,6 +51,9 @@
       }
     }
   }
+}
 
-
+.profile:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
