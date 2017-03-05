@@ -5,10 +5,6 @@
     background-color: #dddddd;
     padding: 20px;
 
-    a, a:hover, a:visited, a:active, a:link, a:focus, a:active:focus {
-        color: darken($color-brand-primary, 5%);
-    }
-
     display: flex;
     align-items: stretch;
     justify-content: space-between;

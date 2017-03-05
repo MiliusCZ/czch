@@ -20,7 +20,7 @@ const images = data.images.map((image, index) =>
 
 const settings = {
   dots: false,
-  infinite: false,
+  infinite: true,
   autoplay: true,
   autoplaySpeed: 4000,
   speed: 1000,

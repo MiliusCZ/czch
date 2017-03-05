@@ -19,7 +19,7 @@ export const Homepage = () => (
     </div>
     <div className="contactSection">
       <h3>Recepce</h3>
-      <b>777 631 397</b>
+      <b><a href="tel:+420777631397">777 631 397</a></b>
     </div>
   </div>
 );

@@ -1,18 +1,18 @@
 .profile {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   .profilePhoto {
-    width: 100%;
+    width: 20%;
     img {
         width: 100%;
+        box-shadow: 0 0 20px 1px #e0e0e0;
     }
     margin-right: 40px;
-    display: none;
   }
 
   .profileInfo {
@@ -28,7 +28,7 @@
     }
 
     .what {
-      margin-left: 10px;
+      margin-left: 5px;
     }
   }
 }
@@ -38,6 +38,7 @@
     flex-direction: column;
 
     .profilePhoto {
+      width: 80%;
       margin-left: auto;
       margin-right: auto;
       border-bottom: 1px dashed #eeeeee;

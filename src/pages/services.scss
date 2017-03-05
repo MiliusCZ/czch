@@ -25,3 +25,11 @@
       margin-left: 40px;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .servicesList {
+      .serviceName {
+        margin-left: 0;
+      }
+    }
+  }

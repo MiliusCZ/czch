@@ -30,3 +30,15 @@
       font-weight: bold;
     }
   }
+
+    @media screen and (max-width: 600px) {
+    .priceList {
+      .priceName {
+        margin-left: 0;
+      }
+
+      .priceValue {
+        margin-right: 0;
+      }
+    }
+  }

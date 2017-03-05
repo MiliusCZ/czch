@@ -24,9 +24,6 @@ const priceListRendered = priceList.map((value, index) => (
   </li>
 ));
 
-
-
-
 export const Prices = () => (
   <div className="pricesContainer">
     <h3>Ceník</h3>

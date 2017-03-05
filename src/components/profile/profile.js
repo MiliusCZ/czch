@@ -1,6 +1,12 @@
 import React, { PropTypes } from 'react';
 import './profile.scss';
 
+const photo = (image, name) => {
+  return image ? (
+    <img src={image} alt={name} />
+  ) : '';
+};
+
 const list = (type, value, isComplex) => {
   return value ? (
     <div>
@@ -36,7 +42,7 @@ ComplexItem.propTypes = {
 export const Profile = ({ data }) => (
   <div className="profile">
     <div className="profilePhoto">
-      <img src={data.image} alt="{data.name}" />
+      {photo(data.image, data.name)}
     </div>
     <div className="profileInfo">
       <h2> {data.name}</h2>
@@ -45,6 +51,7 @@ export const Profile = ({ data }) => (
       {list('Praxe', data.experience, true)}
       {list('Vzdělání', data.education, true)}
       {list('Členství v odborných společnostech', data.membership)}
+      {list('Kurzy', data.courses, true)}
       {list('Jazyky', data.languages)}
     </div>
   </div>
