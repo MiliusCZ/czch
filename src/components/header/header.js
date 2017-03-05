@@ -6,11 +6,11 @@ import image from 'assets/images/logoCZCH.png';
 
 const navData = [
   { to: '/', display: 'O nás' },
-  { to: '/team', display: 'Náš tým' },
-  { to: '/prices', display: 'Ceník' },
-  { to: '/services', display: 'Služby' },
-  { to: '/tools', display: 'Přístrojové vybavení' },
-  { to: '/contact', display: 'Kde nás najdete' },
+  { to: '/tym', display: 'Náš tým' },
+  { to: '/cenik', display: 'Ceník' },
+  { to: '/sluzby', display: 'Služby' },
+  { to: '/pristroje', display: 'Přístrojové vybavení' },
+  { to: '/kontakt', display: 'Kde nás najdete' },
 ];
 
 const links = navData.map((link, index) => (

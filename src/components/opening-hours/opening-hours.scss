@@ -8,3 +8,22 @@
     margin-bottom: 10px;
   }
 }
+
+.hoursHolder {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hoursColumn {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .hoursHolder {
+     flex-direction: column;
+  }
+
+  .hoursColumn {
+    width: 100%;
+  }
+}
