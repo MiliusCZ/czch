@@ -32,6 +32,9 @@ const informationStanda = {
     { from: '10/2007', to: '09/2010', what: 'tříletá praxe na 1.LF UK v Praze včetně služeb pohotovosti' }
   ],
   courses: [
+    { from: '01/2017', to: '', what: 'Implantologický seminář - FULL ARCH, Doc.Starosta, Prim.Pavlíková a spol., Passo del Tonale (ITA)' },
+    { from: '12/2016', to: '', what: 'Management měkkých tkání v implantologii, Prof. Weng, Praha' },
+    { from: '11/2016', to: '', what: 'Kompletní rekonstrukce chrupu implantáty, Dr. Slezáček, Praha' },
     { from: '01/2016', to: '', what: 'Implantologický seminář, Doc.Starosta,Prim.Pavlíková &spol, Passo del Tonale (ITA)' },
     { from: '10/2015', to: '', what: 'Management měkkých tkání, Dr.Zuhr, Olomouc' },
     { from: '09/2015', to: '', what: 'Natural Bone Regeneration, Dr. Hyšpler, Brno' },
@@ -75,7 +78,18 @@ const informationStanda = {
 const informationIveta = {
   name: 'MUDr. Iveta Vítovcová',
   image: iveta,
-  specialization: ['Stomatochirurgie']
+  specialization: ['Stomatochirurgie'],
+  education: [
+    { from: '2001', to: '2007', what: 'Univerzita Karlova v Plzni, Lékařská fakulta, obor zubní lékařství' },
+    { from: '1998', to: '2001', what: 'Soukromá vyšší odborná zdravotnická škola Dr. Ilony Mauritzové v Plzni, obor zubní technik' }
+  ],
+  experience: [
+    { from: '10/2016', to: 'současnost', what: 'Centrum zubní chirurgie s.r.o.' },
+    { from: '02/2012', to: '04/2016', what: 'Všeobecná fakultní nemocnice v Praze, Stomatologická klinika, oddělení stomatochirurgická ambulance, včetně služeb pohotovosti a výuky studentů stomatologie' }
+  ],
+  languages: [
+    'Anglický jazyk'
+  ]
 };
 
 const informationEliska = {
@@ -102,8 +116,8 @@ const team = [
   { ...informationStanda },
   { ...informationIveta },
   { ...informationEliska },
-  { name: 'Hana Horkavá', image: hanka, info: 'Zdravotní sestra' },
   { name: 'Michaela Bambasová', image: misa, info: 'Zdravotní sestra' },
+  { name: 'Hana Horkavá', image: hanka, info: 'Zdravotní sestra' },
   { name: 'Tereza Čižinská', image: tereza, info: 'Zdravotní sestra' },
   { name: 'Petra Doležalová', image: petra, info: 'Recepční' }
 ];

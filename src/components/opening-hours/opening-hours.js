@@ -16,7 +16,7 @@ export const OpeningHours = () => (
         </ul>
         <ul>
           <li><strong>DiS. Eliška Vobořilová</strong></li>
-          <li><span className="hours-heading"><strong>Po</strong>:</span> 8:00 – 12:00</li>
+          <li><span className="hours-heading"><strong>St</strong>:</span> 14:00 – 18:00</li>
         </ul>
       </div>
       <div className="hoursColumn">

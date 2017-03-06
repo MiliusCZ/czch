@@ -15,6 +15,20 @@
   .contactSection {
     flex: 1;
   }
+
+  .phoneNumber {
+    font-size: 28px;
+    font-weight: normal;
+    
+    .alignedPhone {
+      display: flex;
+      align-items: center;
+    }
+
+    i {
+      margin-right: 10px;
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -34,6 +48,13 @@
     .contactSection {
       flex: 1;
       text-align: center;
+    }
+
+    .phoneNumber {
+      .alignedPhone {
+        text-align: center;
+        flex-direction: column;
+      }
     }
   }
 }

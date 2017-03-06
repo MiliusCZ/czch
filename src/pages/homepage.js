@@ -8,8 +8,7 @@ export const Homepage = () => (
       <h3>O nás</h3>
       <p>
         Vítejte na stránkách soukromé stomatochirurgické kliniky CENTRUM ZUBNÍ CHIRURGIE.
-        Klinika byla otevřena 10.5.2016. Naším cílem je poskytovat komplexní a co
-        nejlepší stomatochirurgickou péči. Snažíme se klást velký důraz na individuální
+        Naším cílem je poskytovat komplexní a co nejlepší stomatochirurgickou péči. Snažíme se klást velký důraz na individuální
         přístup k pacientovi, bezbolestné ošetření a kvalitně odvedenou práci. K naší práci
         denně používáme nejmodernější přístroje a materiály, které nám pomáhají pokrýt celé
         spektrum ambulantní zubní chirurgie. Pečovat o Vás bude zapálený tým odborníků,
@@ -19,7 +18,7 @@ export const Homepage = () => (
     </div>
     <div className="contactSection">
       <h3>Recepce</h3>
-      <b><a href="tel:+420777631397">777 631 397</a></b>
+      <div className="phoneNumber"><a href="tel:+420777631397"><span className="alignedPhone"><i className="material-icons">call</i> 777 631 397</span></a></div>
     </div>
   </div>
 );
