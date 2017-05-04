@@ -7,6 +7,25 @@ const photo = (images, name) => images.map((image, index) => (
   </div>
 ));
 
+const expand = (divId) => {
+  const listToExpand = document.getElementById(divId);
+  const currentState = listToExpand.style.display;
+  listToExpand.style.display = currentState === '' ? 'none' : '';
+  document.getElementById(`${divId}icon`).style.display = currentState;
+};
+
+const expandableList = (type, value) => {
+  const divId = `expandable${Math.floor(Math.random() * 100)}`;
+  return value ? (
+    <div>
+      <h4 onClick={() => expand(divId)}>{type} <span id={`${divId}icon`}>(zobrazit)</span></h4>
+      <ul id={divId} style={{ display: 'none' }}>
+        {value.map((l, index) => <ComplexItem value={l} key={index} />)}
+      </ul>
+    </div>
+  ) : '';
+};
+
 const list = (type, value, isComplex) => {
   return value ? (
     <div>
@@ -49,7 +68,7 @@ export const Profile = ({ data }) => (
       {list('Praxe', data.experience, true)}
       {list('Vzdělání', data.education, true)}
       {list('Členství v odborných společnostech', data.membership)}
-      {list('Kurzy', data.courses, true)}
+      {expandableList('Kurzy', data.courses)}
       {list('Jazyky', data.languages)}
     </div>
   </div>

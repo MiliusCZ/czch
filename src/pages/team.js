@@ -33,6 +33,8 @@ const informationStanda = {
     { from: '10/2007', to: '09/2010', what: 'tříletá praxe na 1.LF UK v Praze včetně služeb pohotovosti' }
   ],
   courses: [
+    { from: '03/2017', to: '', what: 'Advanced Implant Prosthodontic Course, Prof. Rojas-Vizcaya, Castellon (ESP)' },
+    { from: '03/2017', to: '', what: 'Zasedání ITI klubu, Dr. Krug a spol., Sexten (ITA)' },
     { from: '01/2017', to: '', what: 'Implantologický seminář - FULL ARCH, Doc.Starosta, Prim.Pavlíková a spol., Passo del Tonale (ITA)' },
     { from: '12/2016', to: '', what: 'Management měkkých tkání v implantologii, Prof. Weng, Praha' },
     { from: '11/2016', to: '', what: 'Kompletní rekonstrukce chrupu implantáty, Dr. Slezáček, Praha' },
