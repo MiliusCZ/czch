@@ -9,11 +9,12 @@ import iveta from 'assets/images/profiles/vitovcova-web.jpg';
 import hanka from 'assets/images/profiles/horkava-web.jpg';
 import misa from 'assets/images/profiles/bambasova-web.jpg';
 import tereza from 'assets/images/profiles/cizinska-web.jpg';
+import eliska from 'assets/images/profiles/voborilova-web.jpg';
 
 
 const informationStanda = {
   name: 'MUDr. Stanislav Kučera',
-  image: standa,
+  images: [standa],
   specialization: ['Stomatochirurgie, implantologie, parodontologie'],
   education: [
     { from: '10/2011', to: '', what: 'osvědčení ČSK – Praktický zubní lékař stomatochirurg' },
@@ -77,7 +78,7 @@ const informationStanda = {
 
 const informationIveta = {
   name: 'MUDr. Iveta Vítovcová',
-  image: iveta,
+  images: [iveta],
   specialization: ['Stomatochirurgie'],
   education: [
     { from: '2001', to: '2007', what: 'Univerzita Karlova v Plzni, Lékařská fakulta, obor zubní lékařství' },
@@ -94,6 +95,7 @@ const informationIveta = {
 
 const informationEliska = {
   name: 'DiS. Eliška Vobořilová',
+  images: [eliska],
   specialization: ['Dentální hygienistka'],
   education: [
     { from: '2009', to: 'současnost', what: 'Vinohradské dentální dny' },
@@ -116,10 +118,8 @@ const team = [
   { ...informationStanda },
   { ...informationIveta },
   { ...informationEliska },
-  { name: 'Michaela Bambasová', image: misa, info: 'Zdravotní sestra' },
-  { name: 'Hana Horkavá', image: hanka, info: 'Zdravotní sestra' },
-  { name: 'Tereza Čižinská', image: tereza, info: 'Zdravotní sestra' },
-  { name: 'Petra Doležalová', image: petra, info: 'Recepční' }
+  { name: 'Tým zdravotních sester', images: [misa, hanka, tereza], info: '' },
+  { name: 'Petra Doležalová', images: [petra], info: 'Recepční' }
 ];
 
 const profiles = team.map((data, index) => (

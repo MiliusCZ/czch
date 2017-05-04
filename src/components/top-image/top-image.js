@@ -8,10 +8,9 @@ import topImage2 from 'assets/images/topimages/topimage-2.jpg';
 import topImage3 from 'assets/images/topimages/topimage-3.jpg';
 import topImage4 from 'assets/images/topimages/topimage-4.jpg';
 import topImage5 from 'assets/images/topimages/topimage-5.jpg';
-import topImage6 from 'assets/images/topimages/topimage-6.jpg';
 
 const data = {
-  images: [topImage1, topImage2, topImage3, topImage4, topImage5, topImage6]
+  images: [topImage1, topImage2, topImage3, topImage4, topImage5]
 };
 
 const images = data.images.map((image, index) =>

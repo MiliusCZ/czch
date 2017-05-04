@@ -33,7 +33,7 @@ export const Contact = () => (
     </ul>
 
     <h4>Parkování pro auta</h4>
-    <p>před poliklinikou jsou zóny, kde se může parkovat maximálně 2 hodiny za poplatek</p>
+    <p>před poliklinikou jsou parkovací zóny, kde můžete za poplatek parkovat bez omezení</p>
   </div>
 );
 
