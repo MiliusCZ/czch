@@ -12,11 +12,11 @@ import createSagaMiddleware from 'redux-saga';
 const reducer = combineReducers({ ...reducers, routing: routerReducer });
 
 const config = {
-    apiKey: "AIzaSyA9HteFZgKoYM3_Cw2_pB373qTSTAWJIPw",
-    authDomain: "czch-cz.firebaseapp.com",
-    databaseURL: "https://czch-cz.firebaseio.com",
-    storageBucket: "czch-cz.appspot.com",
-    messagingSenderId: "299483382572"
+  apiKey: 'AIzaSyA9HteFZgKoYM3_Cw2_pB373qTSTAWJIPw',
+  authDomain: 'czch-cz.firebaseapp.com',
+  databaseURL: 'https://czch-cz.firebaseio.com',
+  storageBucket: 'czch-cz.appspot.com',
+  messagingSenderId: '299483382572'
 };
 
 firebase.initializeApp(config);

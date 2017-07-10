@@ -59,17 +59,21 @@ ComplexItem.propTypes = {
 };
 
 export const Profile = ({ data }) => (
-  <div className="profile">
-    {photo(data.images, data.name)}
-    <div className="profileInfo">
+  <div>
+    <div className="profileHeader">
       <h2> {data.name}</h2>
       <p> {data.info} </p>
-      {list('Specializace', data.specialization)}
-      {list('Praxe', data.experience, true)}
-      {list('Vzdělání', data.education, true)}
-      {list('Členství v odborných společnostech', data.membership)}
-      {expandableList('Kurzy', data.courses)}
-      {list('Jazyky', data.languages)}
+    </div>
+    <div className="profile">
+      {photo(data.images, data.name)}
+      <div className="profileInfo">
+        {list('Specializace', data.specialization)}
+        {list('Praxe', data.experience, true)}
+        {list('Vzdělání', data.education, true)}
+        {list('Členství v odborných společnostech', data.membership)}
+        {expandableList('Kurzy', data.courses)}
+        {list('Jazyky', data.languages)}
+      </div>
     </div>
   </div>
 );

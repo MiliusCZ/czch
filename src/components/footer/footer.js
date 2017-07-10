@@ -11,7 +11,8 @@ export const Footer = () => (
         </div>
         <div className="contactSection">
           <h4>Kontakt</h4>
-         <strong>Centrum zubní chirurgie, s.r.o.</strong> (<a href="mailto:recepce@czch.cz">e-mail</a>)<br />
+          <strong>Centrum zubní chirurgie, s.r.o.</strong><br />
+          <a className="mailLink" href="mailto:recepce@czch.cz">recepce@czch.cz</a><br />
           Pod Marjánkou 1906/12<br />
           Praha 6 - Břevnov<br />
           169 00 <br />

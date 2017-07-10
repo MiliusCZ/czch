@@ -88,7 +88,7 @@ const informationIveta = {
   ],
   experience: [
     { from: '10/2016', to: 'současnost', what: 'Centrum zubní chirurgie s.r.o.' },
-    { from: '02/2012', to: '04/2016', what: 'Všeobecná fakultní nemocnice v Praze, Stomatologická klinika, oddělení stomatochirurgická ambulance, včetně služeb pohotovosti a výuky studentů stomatologie' }
+    { from: '06/2007', to: '02/2017', what: 'Všeobecná fakultní nemocnice v Praze, Stomatologická klinika, oddělení stomatochirurgická ambulance, včetně služeb pohotovosti a výuky studentů stomatologie' }
   ],
   languages: [
     'Anglický jazyk'

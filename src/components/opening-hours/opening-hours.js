@@ -7,7 +7,8 @@ export const OpeningHours = () => (
     <div className="hoursHolder">
       <div className="hoursColumn">
         <ul>
-          <li><strong>MUDr. Stanislav Kučera</strong> (<a href="mailto:kucera@czch.cz">e-mail</a>)</li>
+          <li><strong>MUDr. Stanislav Kučera</strong></li>
+          <li><a className="mailLink" href="mailto:kucera@czch.cz">kucera@czch.cz</a></li>
           <li><span className="hours-heading"><strong>Po</strong>:</span> 8:00 – 12:00<span className="hours-heading"></span>12:45 – 14:30</li>
           <li><span className="hours-heading"><strong>Út</strong>:</span> 8:00 – 12:00<span className="hours-heading"></span>12:45 – 17:00</li>
           <li><span className="hours-heading"><strong>St</strong>:</span> 8:00 – 12:00<span className="hours-heading"></span>12:45 – 17:00</li>
@@ -21,7 +22,8 @@ export const OpeningHours = () => (
       </div>
       <div className="hoursColumn">
         <ul>
-          <li><strong>MUDr. Iveta Vítovcová</strong> (<a href="mailto:vitovcova@czch.cz">e-mail</a>)</li>
+          <li><strong>MUDr. Iveta Vítovcová</strong></li>
+          <li><a className="mailLink" href="mailto:vitovcova@czch.cz">vitovcova@czch.cz</a></li>
           <li><span className="hours-heading"><strong>Po</strong>:</span> 8:00 – 12:00<span className="hours-heading"></span>12:45 – 16:00</li>
           <li><span className="hours-heading"><strong>Út</strong>:</span> 8:00 – 12:00</li>
           <li><span className="hours-heading"><strong>St</strong>:</span> 8:00 – 12:00<span className="hours-heading"></span>12:45 – 16:00</li>
