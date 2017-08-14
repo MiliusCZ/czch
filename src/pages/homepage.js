@@ -5,10 +5,6 @@ import './homepage.scss';
 export const Homepage = () => (
   <div className="homepageContainer">
     <div className="aboutSection">
-      <h3>Dovolená</h3>
-      <p>
-        Ve dnech <b>3.7. - 14.7.</b> a <b>31.7. - 11.8.</b> máme dovolenou.
-      </p>
       <h3>O nás</h3>
       <p>
         Vítejte na stránkách soukromé stomatochirurgické kliniky CENTRUM ZUBNÍ CHIRURGIE.

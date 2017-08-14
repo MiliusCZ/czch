@@ -16,8 +16,12 @@ export const OpeningHours = () => (
           <li><span className="hours-heading"><strong>Pá</strong>:</span> 8:00 – 12:00</li>
         </ul>
         <ul>
-          <li><strong>DiS. Eliška Vobořilová</strong></li>
-          <li><span className="hours-heading"><strong>St</strong>:</span> 14:00 – 18:00</li>
+          <li><strong>Barbora Sladká, DiS. et DiS.</strong></li>
+          <li><span className="hours-heading"><strong>Po</strong>:</span> 9:00 – 14:00</li>
+          <li><span className="hours-heading"><strong>Út</strong>:</span> 9:00 – 14:00</li>
+          <li><span className="hours-heading"><strong>St</strong>:</span> 9:00 – 12:00<span className="hours-heading"></span>12:45 – 17:00</li>
+          <li><span className="hours-heading"><strong>Čt</strong>:</span> 9:00 – 14:00</li>
+          <li><span className="hours-heading"><strong>Pá</strong>:</span> 9:00 – 12:00</li>
         </ul>
       </div>
       <div className="hoursColumn">
@@ -38,3 +42,4 @@ export const OpeningHours = () => (
 OpeningHours.propTypes = {
   data: PropTypes.array
 };
+

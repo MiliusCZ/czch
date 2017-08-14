@@ -3,13 +3,16 @@ import { connect } from 'react-redux';
 import { Profile } from 'components';
 import './team.scss';
 
-import standa from 'assets/images/profiles/kucera-web.jpg';
+// import standa from 'assets/images/profiles/kucera-web.jpg';
+import standa from 'assets/images/personal/_MG_4365.jpg';
 import petra from 'assets/images/profiles/dolezalova-web.jpg';
 import iveta from 'assets/images/profiles/vitovcova-web.jpg';
 import hanka from 'assets/images/profiles/horkava-web.jpg';
-import misa from 'assets/images/profiles/bambasova-web.jpg';
+// import misa from 'assets/images/profiles/bambasova-web.jpg';
+import misa from 'assets/images/personal/_MG_4283.jpg';
 import tereza from 'assets/images/profiles/cizinska-web.jpg';
-import eliska from 'assets/images/profiles/voborilova-web.jpg';
+//import eliska from 'assets/images/profiles/voborilova-web.jpg';
+import bara from 'assets/images/personal/_MG_4297.jpg';
 
 
 const informationStanda = {
@@ -94,7 +97,7 @@ const informationIveta = {
     'Anglický jazyk'
   ]
 };
-
+/*
 const informationEliska = {
   name: 'DiS. Eliška Vobořilová',
   images: [eliska],
@@ -115,11 +118,31 @@ const informationEliska = {
     'Německý jazyk'
   ]
 };
+*/
+
+const informationBara = {
+  name: 'Barbora Sladká, DiS. et DiS.',
+  images: [bara],
+  specialization: ['Dentální hygienistka'],
+  education: [
+    { from: '2004', to: '', what: 'maturitní zkouška na střední zdravotnické škole, Alšovo nábřeží, obor zdravotní laborant' },
+    { from: '2007', to: '', what: 'absolutorium na vyšší zdravotnické škole, Duškova, asistent hygienické služby' },
+    { from: '2012', to: '', what: 'absolutorium na vyšší zdravotnické škole pro dentální hygienistky, Sekaninova' }
+  ],
+  experience: [
+    { from: '2011', to: '2014', what: 'dentální hygienistka v soukromé stomatologické praxi, Praha 2' },
+    { from: '2012', to: '2014', what: 'dentální hygiena, soukromá stomatologicá praxe, Praha 6' },
+    { from: '2017', to: 'současnost', what: 'dentální hygiena, Centrum zubní chirurgie' },
+  ],
+  languages: [
+    'Anglický jazyk'
+  ]
+};
 
 const team = [
   { ...informationStanda },
   { ...informationIveta },
-  { ...informationEliska },
+  { ...informationBara },
   { name: 'Tým zdravotních sester', images: [misa, hanka, tereza], info: '' },
   { name: 'Petra Doležalová', images: [petra], info: 'Recepční' }
 ];
