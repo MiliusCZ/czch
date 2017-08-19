@@ -125,14 +125,14 @@ const informationBara = {
   images: [bara],
   specialization: ['Dentální hygienistka'],
   education: [
-    { from: '2004', to: '', what: 'maturitní zkouška na střední zdravotnické škole, Alšovo nábřeží, obor zdravotní laborant' },
-    { from: '2007', to: '', what: 'absolutorium na vyšší zdravotnické škole, Duškova, asistent hygienické služby' },
-    { from: '2012', to: '', what: 'absolutorium na vyšší zdravotnické škole pro dentální hygienistky, Sekaninova' }
+    { from: '2004', to: '', what: 'maturitní zkouška na střední zdravotnické škole, obor zdravotní laborant, Alšovo nábřeží, Praha 1' },
+    { from: '2007', to: '', what: 'absolutorium na vyšší zdravotnické škole, asistent hygienické služby, Duškova, Praha 5' },
+    { from: '2012', to: '', what: 'absolutorium na vyšší zdravotnické škole pro dentální hygienistky, Sekaninova, Praha 2' }
   ],
   experience: [
-    { from: '2011', to: '2014', what: 'dentální hygienistka v soukromé stomatologické praxi, Praha 2' },
-    { from: '2012', to: '2014', what: 'dentální hygiena, soukromá stomatologicá praxe, Praha 6' },
-    { from: '2017', to: 'současnost', what: 'dentální hygiena, Centrum zubní chirurgie' },
+    { from: '2011', to: '2014', what: 'dentální hygienistka, soukromá stomatologická praxe Praha 2' },
+    { from: '2012', to: '2014', what: 'dentální hygienistka, soukromá stomatologická praxe Praha 6' },
+    { from: '2017', to: 'současnost', what: 'dentální hygienistka, Centrum zubní chirurgie' },
   ],
   languages: [
     'Anglický jazyk'

@@ -16,24 +16,24 @@ export const Contact = () => (
     <p>Naše ordinace naleznete ve čtvrtém patře: </p>
     <ul>
       <li>dveře číslo 416 - <b>MUDr. Iveta Vítovcová</b></li>
-      <li>dveře číslo 417 - <b>MUDr. Stanislav Kučera</b> a dentální hygienistka <b>DiS.Eliška Vobořilová</b></li>
-      <li>dveře číslo 419 - recepce</li>
+      <li>dveře číslo 417 - <b>MUDr. Stanislav Kučera</b></li>
+      <li>dveře číslo 419 - ordinace dentální hygieny a recepce</li>
     </ul>
     <h4>Tramvajové spojení</h4>
-    <p>zastávka U Kaštanu</p>
+    <p>Zastávka U Kaštanu</p>
     <ul>
       <li><b>tramvaj 22</b> - jede z metra A Malostranská</li>
       <li><b>tramvaj 25</b> - jede z metra A Hradčanská</li>
     </ul>
     <h4>Autobusové spojení</h4>
-    <p>zastávka Břevnovská</p>
+    <p>Zastávka Břevnovská</p>
     <ul>
       <li><b>autobus 180</b> - jede z metra A Dejvická</li>
       <li><b>autobus 184</b> - jede z metra A Hradčanská</li>
     </ul>
 
     <h4>Parkování pro auta</h4>
-    <p>před poliklinikou jsou parkovací zóny, kde můžete za poplatek parkovat bez omezení</p>
+    <p>Před poliklinikou jsou smíšené parkovací zóny, kde můžete za poplatek zaparkovat.</p>
   </div>
 );
 
