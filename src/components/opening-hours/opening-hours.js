@@ -17,6 +17,7 @@ export const OpeningHours = () => (
         </ul>
         <ul>
           <li><strong>Barbora Sladká, DiS. et DiS.</strong></li>
+          <li><a className="mailLink" href="mailto:sladka@czch.cz">sladka@czch.cz</a></li>
           <li><span className="hours-heading"><strong>Po</strong>:</span> 9:00 – 14:00</li>
           <li><span className="hours-heading"><strong>Út</strong>:</span> 9:00 – 14:00</li>
           <li><span className="hours-heading"><strong>St</strong>:</span> 9:00 – 12:00<span className="hours-heading"></span>12:45 – 17:00</li>

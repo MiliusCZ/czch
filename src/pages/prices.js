@@ -14,7 +14,8 @@ const priceList = [
   { name: 'Sinus lift', price: 'od 6000 Kč' },
   { name: 'Aplikace MTA při resekci kořenového hrotu', price: 'od 1000 Kč' },
   { name: 'Analgosedace (1 hod)', price: 'od 6000 Kč' },
-  { name: 'Autotransplantace zubu', price: 'od 3000Kč' }
+  { name: 'Autotransplantace zubu', price: 'od 3000 Kč' },
+  { name: 'Dentální hygiena', price: 'od 600 Kč' }
 ];
 
 const priceListRendered = priceList.map((value, index) => (

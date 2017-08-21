@@ -15,7 +15,8 @@ const services = [
   { name: 'odstraňování drobných slizničních novotvarů včetně histologické verifikace' },
   { name: 'zavádění zubních implantátů ASTRA TECH dle zubního CT, včetně protetického ošetření' },
   { name: 'provádíme širokospektré implantologické ošetření od jednoduchých sólo korunek, přes můstky na implantátech, hybridní náhrady na lokátorech až po celkové Bränemarkovy fixní mosty' },
-  { name: 'augmentační techniky spojené s implantologickým ošetřením' }
+  { name: 'augmentační techniky spojené s implantologickým ošetřením' },
+  { name: 'dentální hygiena' }
 ];
 
 const servicesRendered = services.map((value, index) => (

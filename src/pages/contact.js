@@ -29,7 +29,6 @@ export const Contact = () => (
     <p>Zastávka Břevnovská</p>
     <ul>
       <li><b>autobus 180</b> - jede z metra A Dejvická</li>
-      <li><b>autobus 184</b> - jede z metra A Hradčanská</li>
     </ul>
 
     <h4>Parkování pro auta</h4>
