@@ -3,16 +3,13 @@ import { connect } from 'react-redux';
 import { Profile } from 'components';
 import './team.scss';
 
-// import standa from 'assets/images/profiles/kucera-web.jpg';
-import standa from 'assets/images/personal/_MG_4365_ok.jpg';
+import standa from 'assets/images/profiles/kucera-web.jpg';
 import petra from 'assets/images/profiles/dolezalova-web.jpg';
 import iveta from 'assets/images/profiles/vitovcova-web.jpg';
 import hanka from 'assets/images/profiles/horkava-web.jpg';
-// import misa from 'assets/images/profiles/bambasova-web.jpg';
-import misa from 'assets/images/personal/_MG_4283_ok.jpg';
+import misa from 'assets/images/profiles/bambasova-web.jpg';
 import tereza from 'assets/images/profiles/cizinska-web.jpg';
-//import eliska from 'assets/images/profiles/voborilova-web.jpg';
-import bara from 'assets/images/personal/_MG_4297_ok.jpg';
+import bara from 'assets/images/profiles/sladka-web.jpg';
 
 
 const informationStanda = {

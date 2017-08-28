@@ -3,18 +3,11 @@ import Slider from 'react-slick';
 
 import './top-image.scss';
 
-import topImage1 from 'assets/images/topimages/topimage-1.jpg';
-import topImage2 from 'assets/images/topimages/topimage-2.jpg';
-import topImage3 from 'assets/images/topimages/topimage-3.jpg';
-import topImage4 from 'assets/images/topimages/topimage-4.jpg';
-import topImage5 from 'assets/images/topimages/topimage-5.jpg';
-
-// import topImage1 from 'assets/images/topimages/_MG_4222.jpg';
-// import topImage2 from 'assets/images/topimages/_MG_4276.jpg';
-// import topImage3 from 'assets/images/topimages/_MG_4349.jpg';
-// //import topImage4 from 'assets/images/topimages/_MG_4374.jpg';
-// import topImage5 from 'assets/images/topimages/_MG_4393.jpg';
-// import topImage6 from 'assets/images/topimages/_MG_4397.jpg';
+import topImage1 from 'assets/images/ordinace/ordinace1.jpg';
+import topImage2 from 'assets/images/ordinace/ordinace2.jpg';
+import topImage3 from 'assets/images/ordinace/ordinace3.jpg';
+import topImage4 from 'assets/images/ordinace/ordinace4.jpg';
+import topImage5 from 'assets/images/ordinace/ordinace5.jpg';
 
 const data = {
   //  images: [topImage1, topImage2, topImage6, topImage3, topImage5]

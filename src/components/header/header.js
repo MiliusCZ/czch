@@ -2,7 +2,7 @@ import React from 'react';
 import './header.scss';
 import { Link } from 'react-router';
 
-import image from 'assets/images/logoCZCH.png';
+import image from 'assets/images/logoCZCH-small.png';
 
 const navData = [
   { to: '/', display: 'O nás' },
