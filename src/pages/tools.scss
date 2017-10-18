@@ -1,40 +1,33 @@
-  .toolsContainer {
-    background-color: white;
-    padding: 20px;
+.toolsContainer {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolsList {
+  li {
+    min-height: 40px;
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
   }
 
+  li:nth-child(even) {
+    background-color: #fafafa;
+  }
+
+  .toolType {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .toolsList {
-    li {
-      min-height: 40px;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-    }
-
-    li:nth-child(even) {
-      background-color: #fafafa;
-    }
-
-    li:hover {
-      background-color: #E4D6A7;
-    }
-
     .toolName {
-      margin-left: 40px;
-    }
-
-    .toolType {
-      font-weight: bold;
-      margin-left: 5px;
+      margin-left: 0;
     }
   }
-
-  @media screen and (max-width: 600px) {
-    .toolsList {
-      .toolName {
-        margin-left: 0;
-      }
-    }
-  }
+}

@@ -11,6 +11,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding-left: 10px;
     }
 
     li:nth-child(even) {
@@ -18,11 +19,7 @@
     }
 
     li:hover {
-      background-color: #E4D6A7;
-    }
-
-    .priceName {
-      margin-left: 40px;
+      background-color: #f0f0f0;
     }
 
     .priceValue {

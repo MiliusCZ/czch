@@ -1,35 +1,36 @@
-  .servicesContainer {
-    background-color: white;
-    padding: 20px;
+.servicesContainer {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.servicesList {
+  li {
+    min-height: 40px;
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
   }
 
- .servicesList {
-    li {
-      min-height: 40px;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-    }
+  li:nth-child(even) {
+    background-color: #fafafa;
+  }
+}
 
-    li:nth-child(even) {
-      background-color: #fafafa;
-    }
-
-    li:hover {
-      background-color: #E4D6A7;
-    }
-
+@media screen and (max-width: 600px) {
+  .servicesList {
     .serviceName {
-      margin-left: 40px;
+      margin-left: 0;
     }
   }
+}
 
-  @media screen and (max-width: 600px) {
-    .servicesList {
-      .serviceName {
-        margin-left: 0;
-      }
-    }
+.servicesOverview {
+  li {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
+}

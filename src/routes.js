@@ -10,6 +10,7 @@ export const routes = (
       <Route path="/tym" component={Team} />
       <Route path="/cenik" component={Prices} />
       <Route path="/sluzby" component={Services} />
+      <Route path="/sluzby/:serviceName" component={Services} />
       <Route path="/pristroje" component={Tools} />
       <Route path="/kontakt" component={Contact} />
     </Route>
