@@ -53,7 +53,7 @@ const parodontologie = {
 
 const dentalniHygiena = {
   title: 'Dentální hygiena',
-  key: 'dentalniHygiena',
+  key: 'dentalni-hygiena',
   description:
     `Správné a pečlivé čištění zubů a pravidelná profesionální dentální hygiena výrazně snižují
      riziko vzniku zubního kazu, zánětu dásní a parodontitidy. Prací dentální hygienistky je 
