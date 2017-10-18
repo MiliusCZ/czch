@@ -140,7 +140,7 @@ const team = [
   { ...informationStanda },
   { ...informationIveta },
   { ...informationBara },
-  { name: 'Tým zdravotních sester', images: [misa, hanka, tereza], info: '' },
+  { name: 'Tým zdravotních sester', images: [misa, hanka], info: '' },
   { name: 'Petra Doležalová', images: [petra], info: 'Recepční' }
 ];
 
