@@ -75,6 +75,7 @@
     "photoswipe": "^4.1.1",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
+    "react-ga": "^2.3.5",
     "react-photoswipe": "^1.2.0",
     "react-redux": "^4.4.5",
     "react-router": "^2.4.0",
