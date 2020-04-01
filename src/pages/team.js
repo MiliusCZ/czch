@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { Profile } from 'components';
 import './team.scss';
@@ -8,7 +8,7 @@ import petra from 'assets/images/profiles/dolezalova-web.jpg';
 import iveta from 'assets/images/profiles/vitovcova-web.jpg';
 import hanka from 'assets/images/profiles/horkava-web.jpg';
 import misa from 'assets/images/profiles/bambasova-web.jpg';
-import tereza from 'assets/images/profiles/cizinska-web.jpg';
+// import tereza from 'assets/images/profiles/cizinska-web.jpg';
 import bara from 'assets/images/profiles/sladka-web.jpg';
 
 
@@ -33,6 +33,17 @@ const informationStanda = {
     { from: '10/2007', to: '09/2010', what: 'tříletá praxe na 1.LF UK v Praze včetně služeb pohotovosti' }
   ],
   courses: [
+    { from: '01/2020', to: '', what: 'Zasedání ITI klubu, Dr. Krug a spol., Sexten (ITA)' },
+    { from: '01/2020', to: '', what: 'Implantologický seminář, Doc.Starosta, Prim.Pavlíková a spol., Passo del Tonale (ITA)' },
+    { from: '12/2019', to: '', what: 'Modern Approach in Esthetic, Dr. Fabbri, Praha' },
+    { from: '10/2019', to: '', what: 'Vertical and Horizontal Augmentation, Dr. Urban, Budapest, (HUN)' },
+    { from: '03/2019', to: '', what: 'Zasedání ITI klubu, Dr. Krug a spol., Sexten, (ITA)' },
+    { from: '02/2019', to: '', what: 'Immediate Implantation and Restoration, Doc. Noelken, Lindau, (GER)' },
+    { from: '01/2019', to: '', what: 'Implantologický seminář, Doc.Starosta, Prim.Pavlíková a spol., Passo del Tonale (ITA)' },
+    { from: '04/2018', to: '', what: 'Extrakční lůžko a implantát, Prof.Foltán, Praha' },
+    { from: '01/2018', to: '', what: 'Implantologický seminář, Doc.Starosta,Prim.Pavlíková&spol., Passo del Tonale (ITA)' },
+    { from: '12/2017', to: '', what: 'Kongres IKČR, Dr.Marek &spol., Mikulov' },
+    { from: '11/2017', to: '', what: 'CAD/CAM CEREC Basic Clinical, Dr. Kunkela, Jindřichův Hradec' },
     { from: '03/2017', to: '', what: 'Advanced Implant Prosthodontic Course, Prof. Rojas-Vizcaya, Castellon (ESP)' },
     { from: '03/2017', to: '', what: 'Zasedání ITI klubu, Dr. Krug a spol., Sexten (ITA)' },
     { from: '01/2017', to: '', what: 'Implantologický seminář - FULL ARCH, Doc.Starosta, Prim.Pavlíková a spol., Passo del Tonale (ITA)' },

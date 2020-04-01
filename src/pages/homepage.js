@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import './homepage.scss';
 
@@ -13,7 +13,10 @@ export const Homepage = () => (
         denně používáme nejmodernější přístroje a materiály, které nám pomáhají pokrýt celé
         spektrum ambulantní zubní chirurgie. Pečovat o Vás bude zapálený tým odborníků,
         které zubní chirurgie opravdu baví.
-
+      </p>
+      <h3>Upozornění</h3>
+      <p>
+        Do odvolání pracujeme v omezeném režimu každý den od <b>8:00</b> do <b>12:00</b>
       </p>
     </div>
     <div className="contactSection">

@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+
 import Slider from 'react-slick';
 
 import './top-image.scss';

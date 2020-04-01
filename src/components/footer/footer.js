@@ -17,7 +17,8 @@ export const Footer = () => (
           Praha 6 - Břevnov<br />
           169 00 <br />
           IČO: 050 33 519 <br /> <br />
-          <strong>Recepce:</strong><br /> <a href="tel:+420777631397">777 631 397</a>
+          <strong>Recepce:</strong><br /> <a href="tel:+420777631397">777 631 397</a><br /> <br />
+          <strong>Facebook:</strong><br /> <a target="_blank" href="https://www.facebook.com/centrumzubnichirurgie/">fb.me/centrumzubnichirurgie</a>
         </div>
         <div className="insuranceSection">
           <h4>Smluvní pojišťovny</h4>

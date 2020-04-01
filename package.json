@@ -13,10 +13,6 @@
     "eslint": "eslint .",
     "deploy": "rmdir dist /q /s & npm run build & copy dist\\index.html dist\\200.html & firebase deploy"
   },
-  "engines": {
-    "node": "5.0.0",
-    "npm": "3.3.6"
-  },
   "author": "We're in <wereinhq.com>",
   "license": "ISC",
   "devDependencies": {
@@ -70,15 +66,16 @@
     "html-loader": "^0.4.3",
     "html-webpack-plugin": "^2.17.0",
     "jquery": "^3.1.0",
-    "node-sass": "^3.8.0",
+    "node-sass": "^4.7.2",
     "null-loader": "^0.1.1",
     "photoswipe": "^4.1.1",
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "16.2.0",
     "react-ga": "^2.3.5",
     "react-photoswipe": "^1.2.0",
     "react-redux": "^4.4.5",
-    "react-router": "^2.4.0",
+    "react-router": "3.2.0",
     "react-router-redux": "^4.0.4",
     "react-slick": "^0.14.6",
     "redux": "^3.5.2",
