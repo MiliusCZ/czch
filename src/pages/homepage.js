@@ -14,10 +14,6 @@ export const Homepage = () => (
         spektrum ambulantní zubní chirurgie. Pečovat o Vás bude zapálený tým odborníků,
         které zubní chirurgie opravdu baví.
       </p>
-      <h3>Upozornění</h3>
-      <p>
-        Do odvolání pracujeme v omezeném režimu každý den od <b>8:00</b> do <b>12:00</b>
-      </p>
     </div>
     <div className="contactSection">
       <h3>Recepce</h3>
